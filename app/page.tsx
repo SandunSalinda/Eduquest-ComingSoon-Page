@@ -11,12 +11,13 @@ import './globals.css'; // Import global styles
 const App = () => {
   return (
     <div 
-      className="bg-white relative min-h-screen overflow-x-hidden overflow-y-auto"
+      className="bg-white relative min-h-screen overflow-x-hidden"
       style={{
         width: '100vw',
+        minHeight: '100vh',
         backgroundImage: 'url(/background.svg)',
         backgroundSize: 'cover',
-        backgroundPosition: 'center center',
+        backgroundPosition: 'center top',
         backgroundRepeat: 'no-repeat'
       }}
     >
