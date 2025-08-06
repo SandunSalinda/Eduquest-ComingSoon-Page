@@ -49,7 +49,7 @@ const HeroSection = () => {
               </h2>
             </div>
             <p className="w-full text-neutral-400 text-sm sm:text-base lg:text-lg font-normal font-['Bricolage_Grotesque'] leading-relaxed">
-              We're building something exciting to guide your dreams.<br className="hidden sm:block"/>
+              We&apos;re building something exciting to guide your dreams.<br className="hidden sm:block"/>
               Our new PathFinder Tool is almost ready — just for students like you!
             </p>
           </div>

@@ -160,7 +160,7 @@ const WaitlistModal: React.FC<WaitlistModalProps> = ({ isOpen, onClose }) => {
                   Be among the first to explore our powerful PathFinder tool, designed to guide your study abroad journey.
                 </p>
                 <p className="text-base text-gray-900 font-['Bricolage_Grotesque'] leading-relaxed">
-                  Enter your email below and we'll notify you as soon as we launch!
+                  Enter your email below and we&apos;ll notify you as soon as we launch!
                 </p>
               </div>
 
@@ -220,10 +220,10 @@ const WaitlistModal: React.FC<WaitlistModalProps> = ({ isOpen, onClose }) => {
                 </svg>
               </div>
               <h3 className="text-2xl font-bold text-gray-900 font-['Bricolage_Grotesque']" style={{ marginBottom: '1rem' }}>
-                You're In! 🎉
+                You&apos;re In! 🎉
               </h3>
               <p className="text-gray-600 font-['Bricolage_Grotesque'] leading-relaxed">
-                Successfully joined the waitlist! We'll notify you soon.
+                Successfully joined the waitlist! We&apos;ll notify you soon.
               </p>
             </div>
           )}

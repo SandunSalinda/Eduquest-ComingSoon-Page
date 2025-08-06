@@ -1,5 +1,5 @@
 import React from 'react';
-import { Facebook01Icon, TwitterIcon, Linkedin01Icon, TiktokIcon } from 'hugeicons-react';
+import { Facebook01Icon, Linkedin01Icon, TiktokIcon } from 'hugeicons-react';
 
 // Header Component
 // Using exact Tailwind styles with Huge Icons - Mobile Responsive
