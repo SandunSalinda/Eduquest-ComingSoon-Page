@@ -158,8 +158,13 @@ h1, h2, h3, h4, h5, h6, p, span, div {
   
   /* Custom spacing for social media section */
   .mobile-social-spacing {
-    margin-bottom: 4rem !important; /* Large gap before footer */
+    margin-bottom: 2rem !important; /* Large gap before footer */
     margin-top: 2rem !important; /* Space above social media section */
+  }
+  
+  /* Custom spacing for follow us text */
+  .mobile-follow-text-spacing {
+    margin-bottom: 1rem !important; /* Large gap between text and icons */
   }
   
   /* Additional mobile optimizations */

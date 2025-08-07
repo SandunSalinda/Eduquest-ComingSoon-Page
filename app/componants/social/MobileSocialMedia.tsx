@@ -6,7 +6,7 @@ import { Facebook01Icon, Linkedin01Icon, TiktokIcon } from 'hugeicons-react';
 const MobileSocialMedia = () => (
   <section className="flex md:hidden w-full justify-center py-8 px-4 mobile-social-spacing">
     <div className="w-full max-w-[1170px] flex flex-col justify-center items-center">
-      <div className="flex items-center gap-4 mb-6">
+      <div className="flex items-center gap-4 mobile-follow-text-spacing">
         <div className="text-[#1058C3] text-sm font-medium">
           Follow us
         </div>
