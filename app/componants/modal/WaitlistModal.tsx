@@ -214,15 +214,22 @@ const WaitlistModal: React.FC<WaitlistModalProps> = ({ isOpen, onClose }) => {
           ) : (
             /* Success Message with proper spacing */
             <div className="text-center" style={{ padding: '2rem 0' }}>
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto" style={{ marginBottom: '1rem' }}>
+              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center" style={{ 
+                marginBottom: '1rem', 
+                marginLeft: 'auto', 
+                marginRight: 'auto',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center'
+              }}>
                 <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 font-['Bricolage_Grotesque']" style={{ marginBottom: '1rem' }}>
+              <h3 className="text-2xl font-bold text-gray-900 font-['Bricolage_Grotesque']" style={{ marginBottom: '1rem', textAlign: 'center' }}>
                 You&apos;re In! 🎉
               </h3>
-              <p className="text-gray-600 font-['Bricolage_Grotesque'] leading-relaxed">
+              <p className="text-gray-600 font-['Bricolage_Grotesque'] leading-relaxed" style={{ textAlign: 'center' }}>
                 Successfully joined the waitlist! We&apos;ll notify you soon.
               </p>
             </div>

@@ -9,9 +9,9 @@ const Header = () => (
       {/* Logo Section - Smaller on mobile */}
       <img className="w-36 md:w-72 h-auto cursor-pointer" src="/eduquest logo.svg" alt="EduQuest Logo" />
 
-      {/* Social Media Section - Row on all screens, "Follow us" hidden on mobile */}
-      <div className="flex items-center gap-3">
-        <div className="hidden md:block justify-start text-[#1058C3] text-sm md:text-base font-medium mr-2">
+      {/* Social Media Section - Hidden on mobile, Row on desktop */}
+      <div className="hidden md:flex items-center gap-3">
+        <div className="justify-start text-[#1058C3] text-sm md:text-base font-medium mr-2">
           Follow us
         </div>
         {/* Icons */}

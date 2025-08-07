@@ -72,17 +72,17 @@ const HeroSection = () => {
             {/* Features List - Aligned with blue lines */}
             <div className="flex-1 py-0 flex flex-col justify-start items-start gap-4 lg:gap-6 transform translate-y-2">
               <div className="flex justify-start items-start gap-2 min-h-[32px] lg:min-h-[36px]">
-                <div className="text-black text-sm sm:text-base font-semibold font-['Bricolage_Grotesque'] leading-relaxed">
+                <div className="text-black text-sm sm:text-base font-semibold font-['Bricolage_Grotesque'] leading-relaxed transform -translate-y-1 sm:translate-y-0">
                   Find the best courses
                 </div>
               </div>
               <div className="flex justify-start items-start gap-2 min-h-[32px] lg:min-h-[36px]">
-                <div className="text-black text-sm sm:text-base font-semibold font-['Bricolage_Grotesque'] leading-relaxed">
+                <div className="text-black text-sm sm:text-base font-semibold font-['Bricolage_Grotesque'] leading-relaxed transform -translate-y-1 sm:translate-y-0">
                   Discover your perfect country
                 </div>
               </div>
               <div className="flex justify-start items-start gap-2 min-h-[32px] lg:min-h-[36px]">
-                <div className="text-black text-sm sm:text-base font-semibold font-['Bricolage_Grotesque'] leading-relaxed">
+                <div className="text-black text-sm sm:text-base font-semibold font-['Bricolage_Grotesque'] leading-relaxed transform -translate-y-1 sm:translate-y-0">
                   Get personalized with study-abroad advice
                 </div>
               </div>
