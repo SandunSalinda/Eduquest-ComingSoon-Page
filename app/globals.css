@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6, p, span, div {
     height: 2rem !important; /* Slightly increased for mobile separation */
   }
   .bottom-spacing {
-    height: 1rem !important; /* Reduced to allow more space for social media */
+    height: 1rem !important; /* More bottom spacing at mobile */
   }
   
   /* Custom spacing for social media section */
@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6, p, span, div {
   
   /* Custom spacing for follow us text */
   .mobile-follow-text-spacing {
-    margin-bottom: 1rem !important; /* Large gap between text and icons */
+    margin-bottom: 0.5rem !important; /* Large gap between text and icons */
   }
   
   /* Additional mobile optimizations */

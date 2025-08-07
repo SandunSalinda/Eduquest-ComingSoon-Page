@@ -52,7 +52,7 @@ const HeroSection = () => {
                 Your Study Abroad Journey Begins Here
               </h2>
             </div>
-            <p className="w-full text-neutral-400 text-sm sm:text-base lg:text-lg font-normal font-['Bricolage_Grotesque'] leading-relaxed text-left">
+            <p className="w-full text-neutral-500 text-sm sm:text-base lg:text-lg font-normal font-['Bricolage_Grotesque'] leading-relaxed text-left">
               We&apos;re building something exciting to guide your dreams.<br className="hidden sm:block"/>
               Our new PathFinder Tool is almost ready — just for students like you!
             </p>

@@ -3,7 +3,7 @@ import React from 'react';
 // Footer Component
 // Simple footer with copyright and contact information only
 const Footer = () => (
-  <footer className="w-full flex justify-center py-8 px-4 md:px-0 pb-12">
+  <footer className="w-full flex justify-center py-8 px-4 md:px-0 pb-16 mb-8">
     <div className="w-full max-w-[1170px] flex flex-col justify-center items-center">
       {/* Copyright */}
       <div className="text-center text-neutral-600 text-[10px] sm:text-[12px] font-normal font-['Bricolage_Grotesque'] mb-2 leading-tight">

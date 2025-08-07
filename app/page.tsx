@@ -53,6 +53,8 @@ const App = () => {
         <MobileSocialMedia />
         
         <Footer />
+        {/* Extra bottom spacing after footer */}
+        <div className="bottom-spacing"></div>
       </div>
     </div>
   );

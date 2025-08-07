@@ -11,7 +11,7 @@ const MobileSocialMedia = () => (
           Follow us
         </div>
       </div>
-      <div className="flex items-center gap-12">
+      <div className="flex items-center gap-6">
         <a href="https://web.facebook.com/people/EduQuest/61558826207926/" aria-label="Facebook" className="w-6 h-6 text-slate-900 hover:text-blue-700 transition-colors" target='_blank'>
           <Facebook01Icon size={24} className="cursor-pointer" />
         </a>
