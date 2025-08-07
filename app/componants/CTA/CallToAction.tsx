@@ -14,7 +14,7 @@ const CallToAction = () => {
 
   return (
     <>
-      <section className="w-full flex justify-center py-4 px-4 md:px-0">
+      <section className="w-full flex justify-center py-4 px-4 md:px-0 mt-[-1rem] md:mt-0">
         <div className="w-full max-w-[1169px] flex flex-col justify-center items-center gap-6">
           {/* Border Top */}
           <div className="w-full border-t border-black"></div>
@@ -22,7 +22,7 @@ const CallToAction = () => {
           {/* Content Container */}
           <div className="flex flex-col justify-start items-center gap-6 px-4 md:px-10">
             {/* Text Content */}
-            <div className="flex flex-col justify-center items-center gap-2 text-center">
+            <div className="flex flex-col justify-center items-center gap-2 text-center md:text-center">
               <span className="text-black text-lg sm:text-xl font-semibold font-['Bricolage_Grotesque'] leading-tight">
                 Ready for something new?
               </span>

@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6, p, span, div {
     height: 2rem !important; /* Slightly increased for mobile separation */
   }
   .bottom-spacing {
-    height: 1.5rem !important;
+    height: 2rem !important;
   }
   
   /* Additional mobile optimizations */
@@ -173,10 +173,10 @@ h1, h2, h3, h4, h5, h6, p, span, div {
     height: 160px !important; /* Increased for better separation */
   }
   .hero-cta-spacing {
-    height: 80px !important; /* Original design spacing */
+    height: 60px !important; /* Original design spacing */
   }
   .bottom-spacing {
-    height: 40px !important;
+    height: 50px !important;
   }
 }
 
@@ -199,10 +199,10 @@ h1, h2, h3, h4, h5, h6, p, span, div {
     height: 180px !important; /* Original design spacing */
   }
   .hero-cta-spacing {
-    height: 110px !important; /* Original design spacing */
+    height: 80px !important; /* Original design spacing */
   }
   .bottom-spacing {
-    height: 100px !important;
+    height: 90px !important;
   }
 }
 
@@ -248,4 +248,4 @@ h1, h2, h3, h4, h5, h6, p, span, div {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #a1a1a1;
-}
+} 
