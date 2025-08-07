@@ -12,7 +12,7 @@ const Footer = () => (
           Follow us
         </div>
       </div>
-      <div className="flex md:hidden items-center gap-4 mb-8">
+      <div className="flex md:hidden items-center gap-8 mb-16">
         <a href="https://web.facebook.com/people/EduQuest/61558826207926/" aria-label="Facebook" className="w-6 h-6 text-slate-900 hover:text-blue-700 transition-colors" target='_blank'>
           <Facebook01Icon size={24} className="cursor-pointer" />
         </a>
@@ -25,12 +25,12 @@ const Footer = () => (
       </div>
 
       {/* Copyright */}
-      <div className="text-center text-neutral-600 text-[10px] sm:text-[12px] font-normal font-['Bricolage_Grotesque'] mt-8 mb-2">
+      <div className="text-center text-neutral-600 text-[10px] sm:text-[12px] font-normal font-['Bricolage_Grotesque'] mt-4 mb-1 leading-tight">
         © 2025 EduQuest. All rights reserved.
       </div>
 
       {/* Contact */}
-      <div className="text-center text-neutral-600 text-[10px] sm:text-[12px] font-normal font-['Bricolage_Grotesque'] mb-6">
+      <div className="text-center text-neutral-600 text-[10px] sm:text-[12px] font-normal font-['Bricolage_Grotesque'] mb-6 leading-tight">
         Contact us: <a href="mailto:hello@eduquest.global" className="text-blue-700 hover:text-blue-800 transition-colors">hello@eduquest.global</a>
       </div>
     </div>
