@@ -5,6 +5,7 @@ import React from 'react';
 import Header from './componants/header/Header';
 import HeroSection from './componants/hero/hero';
 import CallToAction from './componants/CTA/CallToAction';
+import MobileSocialMedia from './componants/social/MobileSocialMedia';
 import Footer from './componants/footer/Footer';
 import './globals.css'; // Import global styles
 
@@ -48,6 +49,8 @@ const App = () => {
         
         {/* Bottom padding - responsive for different screen sizes */}
         <div className="bottom-spacing"></div>
+        
+        <MobileSocialMedia />
         
         <Footer />
       </div>
