@@ -9,21 +9,23 @@ const Header = () => (
       {/* Logo Section - Smaller on mobile */}
       <img className="w-36 md:w-72 h-auto cursor-pointer" src="/eduquest logo.svg" alt="EduQuest Logo" />
 
-      {/* Social Media Section - Hidden on mobile, Row on desktop */}
-      <div className="hidden md:flex items-center gap-3">
-        <div className="justify-start text-[#1058C3] text-sm md:text-base font-medium mr-2">
+      {/* Social Media Section - Hidden on mobile, Vertical layout on desktop */}
+      <div className="hidden md:flex flex-col items-center gap-0.5">
+        <div className="text-[#1058C3] text-sm md:text-base font-medium">
           Follow us
         </div>
         {/* Icons */}
-        <a href="https://web.facebook.com/people/EduQuest/61558826207926/" aria-label="Facebook" className="w-5 h-5 text-slate-900 hover:text-blue-700 transition-colors" target='_blank'>
-          <Facebook01Icon size={20} className="cursor-pointer" />
-        </a>
-        <a href="https://www.linkedin.com/company/metaxm/" aria-label="LinkedIn" target='_blank' className="w-5 h-5 text-slate-900 hover:text-blue-700 transition-colors">
-          <Linkedin01Icon size={20} className="cursor-pointer" />
-        </a>
-        <a href="https://www.tiktok.com/@eduquest__" aria-label="tiktok" target='_blank' className="w-5 h-5 text-slate-900 hover:text-blue-700 transition-colors">
-          <TiktokIcon size={20} className="cursor-pointer" />
-        </a>
+        <div className="flex items-center gap-3">
+          <a href="https://web.facebook.com/people/EduQuest/61558826207926/" aria-label="Facebook" className="w-8 h-8 text-slate-900 hover:text-blue-700 transition-colors" target='_blank'>
+            <Facebook01Icon size={28} className="cursor-pointer" />
+          </a>
+          <a href="https://www.linkedin.com/company/metaxm/" aria-label="LinkedIn" target='_blank' className="w-8 h-8 text-slate-900 hover:text-blue-700 transition-colors">
+            <Linkedin01Icon size={28} className="cursor-pointer" />
+          </a>
+          <a href="https://www.tiktok.com/@eduquest__" aria-label="tiktok" target='_blank' className="w-8 h-8 text-slate-900 hover:text-blue-700 transition-colors">
+            <TiktokIcon size={28} className="cursor-pointer" />
+          </a>
+        </div>
       </div>
     </div>
   </header>
