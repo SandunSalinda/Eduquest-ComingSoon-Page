@@ -11,8 +11,15 @@ const Footer = () => (
       </div>
 
       {/* Contact */}
-      <div className="text-center text-neutral-600 text-[10px] sm:text-[12px] font-normal font-['Bricolage_Grotesque'] mb-6 leading-tight">
+      <div className="text-center text-neutral-600 text-[10px] sm:text-[12px] font-normal font-['Bricolage_Grotesque'] mb-3 leading-tight">
         Contact us: <a href="mailto:hello@eduquest.global" className="text-blue-700 hover:text-blue-800 transition-colors">hello@eduquest.global</a>
+      </div>
+
+      {/* Legal Links */}
+      <div className="text-center text-neutral-600 text-[10px] sm:text-[12px] font-normal font-['Bricolage_Grotesque'] mb-6 leading-tight space-x-4">
+        <a href="/privacy" className="text-blue-700 hover:text-blue-800 transition-colors">Privacy Policy</a>
+        <span>•</span>
+        <a href="/terms" className="text-blue-700 hover:text-blue-800 transition-colors">Terms of Service</a>
       </div>
     </div>
   </footer>

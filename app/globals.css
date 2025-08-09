@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6, p, span, div {
   }
   
   body, html {
-    overflow-y: hidden; /* Hide scroll - content should fit with scaling */
+    overflow-y : hidden /* Hide scroll - content should fit with scaling  */
   }
 }
 
@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6, p, span, div {
   }
   
   body, html {
-    overflow-y: hidden; /* Hide scroll - content should fit with scaling */
+    overflow-y: hidden; /* Hide scroll - content should  */
   }
 }
 
@@ -201,7 +201,7 @@ h1, h2, h3, h4, h5, h6, p, span, div {
     height: 60px !important; /* Original design spacing */
   }
   .bottom-spacing {
-    height: 50px !important;
+    height: 60px !important;
   }
 }
 
@@ -227,7 +227,7 @@ h1, h2, h3, h4, h5, h6, p, span, div {
     height: 80px !important; /* Original design spacing */
   }
   .bottom-spacing {
-    height: 90px !important;
+    height: 100px !important;
   }
 }
 

@@ -75,6 +75,9 @@ const WaitlistModal: React.FC<WaitlistModalProps> = ({ isOpen, onClose }) => {
       return;
     }
 
+    // NOTE: This is frontend-only for UI demonstration
+    // NO emails are collected, stored, or sent anywhere
+    // NO backend communication occurs - purely visual feedback
     setIsSubmitting(true);
     await new Promise(resolve => setTimeout(resolve, 1000));
     setIsSubmitting(false);
@@ -208,7 +211,7 @@ const WaitlistModal: React.FC<WaitlistModalProps> = ({ isOpen, onClose }) => {
 
               {/* Privacy Notice with top margin */}
               <p className="text-center text-gray-500 text-sm font-['Bricolage_Grotesque']" style={{ marginTop: '0.1rem' }}>
-                We respect your privacy. No spam, ever.
+                Demo only - No emails stored or sent. Privacy respected.
               </p>
             </div>
           ) : (

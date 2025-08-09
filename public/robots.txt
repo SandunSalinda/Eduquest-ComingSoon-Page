@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /.well-known/
+
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# This is a legitimate landing page
+# No email automation or spam activities occur

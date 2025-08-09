@@ -1,0 +1,9 @@
+Contact: hello@eduquest.global
+Preferred-Languages: en
+Canonical: https://yourdomain.com/.well-known/security.txt
+Policy: https://yourdomain.com/security-policy
+Acknowledgments: https://yourdomain.com/thanks
+
+# This website is a landing page with frontend-only email collection
+# No emails are stored, processed, or sent from this domain
+# All email forms are for UI demonstration purposes only
