@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 // Hero Section Component
 // Using exact Tailwind styles from Figma design - Mobile Responsive
@@ -8,10 +9,12 @@ const HeroSection = () => {
       <div className="w-full max-w-[1169px] flex flex-col lg:flex-row justify-start items-center lg:items-end gap-8 lg:gap-20 relative">
         {/* Illustration - Desktop positioned absolute */}
         <div className="hidden lg:block absolute top-[-90px] left-[340px] z-5">
-          <img 
+          <Image 
             src="/Illustration.png" 
             alt="Study abroad illustration" 
             className="w-auto h-auto max-w-[400px] xl:max-w-[450px] object-contain"
+            width={450}
+            height={400}
           />
         </div>
 
@@ -21,10 +24,13 @@ const HeroSection = () => {
           <div className="block lg:hidden text-left w-full">
             {/* Mobile hero PNG scaled to fit screen */}
             <div className="relative mt-8 flex justify-center">
-              <img 
+              <Image 
                 src="/hero png.png" 
                 alt="Unlock Your Global Future with EduQuest" 
                 className="w-full max-w-full h-auto object-contain"
+                width={600}
+                height={400}
+                priority
               />
             </div>
           </div>
@@ -62,10 +68,12 @@ const HeroSection = () => {
           <div className="w-full h-auto flex flex-row justify-start items-start gap-3 lg:gap-1 px-2 sm:px-0">
             {/* Blue Lines SVG - Show on all screens */}
             <div className="flex flex-col justify-start items-center pt-0">
-              <img 
+              <Image 
                 src="/Line 2.svg" 
                 alt="Blue lines" 
                 className="w-auto h-32 lg:h-40 object-contain"
+                width={50}
+                height={160}
               />
             </div>
             

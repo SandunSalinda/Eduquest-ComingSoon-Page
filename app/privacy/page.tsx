@@ -12,7 +12,7 @@ const PrivacyPolicy = () => (
 
       <section>
         <h2 className="text-xl font-semibold mb-3">Email Form</h2>
-        <p>The "Join Waitlist" form is for user interface demonstration purposes only. Email addresses entered are:</p>
+        <p>The &ldquo;Join Waitlist&rdquo; form is for user interface demonstration purposes only. Email addresses entered are:</p>
         <ul className="list-disc ml-6 mt-2">
           <li>Not stored in any database</li>
           <li>Not sent to any email service</li>

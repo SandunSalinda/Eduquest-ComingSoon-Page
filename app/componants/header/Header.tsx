@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { Facebook01Icon, Linkedin01Icon, TiktokIcon } from 'hugeicons-react';
 
 // Header Component
@@ -7,7 +8,7 @@ const Header = () => (
   <header className="w-full flex justify-center py-6 px-4">
     <div className="w-full max-w-[1170px] flex flex-row justify-between items-center">
       {/* Logo Section - Smaller on mobile */}
-      <img className="w-36 md:w-72 h-auto cursor-pointer" src="/eduquest logo.svg" alt="EduQuest Logo" />
+      <Image className="w-36 md:w-72 h-auto cursor-pointer" src="/eduquest logo.svg" alt="EduQuest Logo" width={288} height={100} priority />
 
       {/* Social Media Section - Hidden on mobile, Vertical layout on desktop */}
       <div className="hidden md:flex flex-col items-center gap-0.5">
