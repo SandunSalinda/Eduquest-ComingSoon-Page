@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6, p, span, div {
 /* 1080p and smaller screens - scale down aggressively */
 @media (max-height: 1080px) and (min-width: 1025px) {
   .responsive-scale {
-    transform: scale(0.75) !important;
+    transform: scale(1) !important;
     transform-origin: center top !important;
   }
   
